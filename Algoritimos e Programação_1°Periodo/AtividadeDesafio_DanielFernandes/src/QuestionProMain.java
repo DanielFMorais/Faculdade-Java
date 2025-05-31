@@ -33,9 +33,8 @@ public class QuestionProMain {
             consumoMedio[i] = sc.nextDouble();
             
             valorConta[i] = (consumoMedio[i] * tarifaKW);
-        
 
-
+            System.out.println("Teste");
         }
         
         sc.close();
