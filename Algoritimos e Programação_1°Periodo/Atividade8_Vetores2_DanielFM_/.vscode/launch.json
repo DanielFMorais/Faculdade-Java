@@ -1,0 +1,84 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Question1",
+            "request": "launch",
+            "mainClass": "Question1",
+            "projectName": "Atividade8_Vetores2_DanielFM__c8919813"
+        },
+        {
+            "type": "java",
+            "name": "Question10",
+            "request": "launch",
+            "mainClass": "Question10",
+            "projectName": "Atividade8_Vetores2_DanielFM__c8919813"
+        },
+        {
+            "type": "java",
+            "name": "Question2",
+            "request": "launch",
+            "mainClass": "Question2",
+            "projectName": "Atividade8_Vetores2_DanielFM__c8919813"
+        },
+        {
+            "type": "java",
+            "name": "Question3",
+            "request": "launch",
+            "mainClass": "Question3",
+            "projectName": "Atividade8_Vetores2_DanielFM__c8919813"
+        },
+        {
+            "type": "java",
+            "name": "Question4",
+            "request": "launch",
+            "mainClass": "Question4",
+            "projectName": "Atividade8_Vetores2_DanielFM__c8919813"
+        },
+        {
+            "type": "java",
+            "name": "Question5",
+            "request": "launch",
+            "mainClass": "Question5",
+            "projectName": "Atividade8_Vetores2_DanielFM__c8919813"
+        },
+        {
+            "type": "java",
+            "name": "Question6",
+            "request": "launch",
+            "mainClass": "Question6",
+            "projectName": "Atividade8_Vetores2_DanielFM__c8919813"
+        },
+        {
+            "type": "java",
+            "name": "Question7",
+            "request": "launch",
+            "mainClass": "Question7",
+            "projectName": "Atividade8_Vetores2_DanielFM__c8919813"
+        },
+        {
+            "type": "java",
+            "name": "Question8",
+            "request": "launch",
+            "mainClass": "Question8",
+            "projectName": "Atividade8_Vetores2_DanielFM__c8919813"
+        },
+        {
+            "type": "java",
+            "name": "Question9",
+            "request": "launch",
+            "mainClass": "Question9",
+            "projectName": "Atividade8_Vetores2_DanielFM__c8919813"
+        }
+    ]
+}
