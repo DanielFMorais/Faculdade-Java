@@ -4,12 +4,10 @@ RA: 12126602
 Data: 30 de Maio de 2025
  */
 
-import java.util.Random;
 import java.util.Scanner;
 
 public class Question8 {
     public static void main(String[] args) {
-        Random rand = new Random();
         Scanner sc = new Scanner(System.in);
 
         int [] vetor  = new int[10];

@@ -4,7 +4,6 @@ RA: 12126602
 Data: 30 de Maio de 2025
  */
 
-import java.util.Scanner;
 
 public class Question4 {
     public static void main(String[] args) {
