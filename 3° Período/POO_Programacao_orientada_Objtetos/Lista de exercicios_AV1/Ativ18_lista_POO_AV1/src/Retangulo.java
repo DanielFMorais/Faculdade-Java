@@ -18,7 +18,7 @@ public class Retangulo {
 
     public void perimetroRetangulo () {
 
-        double perimetro = (base + altura);
+        double perimetro = 2*(base + altura);
 
         System.out.println("O perímetro do retangulo é de: " + perimetro);
 

@@ -12,7 +12,7 @@ public class Circulo {
 
         double area = (Math.PI * Math.pow(raio, 2) );
 
-       System.out.println("A área do circulo é de: " + area);
+       System.out.printf("A área do circulo é de: %.2f", area);
     }
 
     public void calcularPerimetro () {
