@@ -1,6 +1,7 @@
-import javax.swing.*;
+import javax.swing.JOptionPane;
 
 public class ContaBancaria {
+
     private int numeroConta;
     private String nomeTitular;
     private double saldo;
@@ -28,6 +29,3 @@ public class ContaBancaria {
     }
 
 }
-
-
-

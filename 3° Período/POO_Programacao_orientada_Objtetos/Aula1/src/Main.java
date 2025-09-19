@@ -1,4 +1,4 @@
-import javax.swing.*;
+import javax.swing.JOptionPane;
 
 public class Main {
     public static void main(String[] args) {
@@ -17,7 +17,5 @@ public class Main {
         double valorSaque = Double.parseDouble(JOptionPane.showInputDialog("Por favor, me informe quanto que deseja sacar: "));
         conta.realizarSaque(valorSaque);
         conta.mostrarSaldo();
-
-
     }
 }
