@@ -20,6 +20,6 @@ public class questao4 {
         resultado = (valorinserido == valordefinido);
 
         System.out.println ("Resposta correta? " + resultado);
-
+        leia.close();
     }
 }

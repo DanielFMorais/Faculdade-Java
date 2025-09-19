@@ -19,6 +19,8 @@ public class questao7 {
 
         System.out.printf ("A multiplicaçao de " + valorint + "x %.3f é igual á: %.2f",valordouble, resultado);
 
+        leia.close();
+
 
     }
 

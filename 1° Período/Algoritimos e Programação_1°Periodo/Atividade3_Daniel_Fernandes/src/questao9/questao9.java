@@ -21,5 +21,7 @@ public class questao9 {
 
         System.out.println("O resultados dos dois valores é = " + resultado);
 
+        leia.close();
+
     }
 }

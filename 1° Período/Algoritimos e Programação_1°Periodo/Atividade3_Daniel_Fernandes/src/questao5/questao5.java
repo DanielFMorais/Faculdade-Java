@@ -19,7 +19,7 @@ public class questao5 {
 
         System.out.println ("A soma de " + valor1 + "+" + valor1 + " é igual á: " + soma);
 
-
+        leia.close();
 
     }
 }

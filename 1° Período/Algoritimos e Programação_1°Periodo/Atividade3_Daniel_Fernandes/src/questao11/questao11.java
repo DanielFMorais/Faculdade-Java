@@ -13,5 +13,7 @@ public class questao11 {
 
         System.out.printf("A raiz quadrada do seu valor = %.2f ", raiz);
 
+        leia.close();
+
     }
 }

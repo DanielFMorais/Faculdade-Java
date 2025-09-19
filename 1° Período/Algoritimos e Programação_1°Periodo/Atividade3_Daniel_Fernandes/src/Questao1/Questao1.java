@@ -13,5 +13,7 @@ public class Questao1 {
 
         System.out.println ("O valor digitado é :" + valor1);
 
+        leia.close();
+
     }
 }

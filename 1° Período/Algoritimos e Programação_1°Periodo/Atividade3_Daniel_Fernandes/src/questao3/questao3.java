@@ -14,6 +14,6 @@ public class questao3 {
 
         System.out.println ("A mensagem digitada foi: " + valor1);
 
-
+        leia.close();
     }
 }

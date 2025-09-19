@@ -13,5 +13,7 @@ public class questao12 {
         int valor1 = leia.nextInt();
 
         System.out.println("Você falou a string '" + algo + "' e digitou o número '" + valor1 + "'");
+
+        leia.close();
     }
 }

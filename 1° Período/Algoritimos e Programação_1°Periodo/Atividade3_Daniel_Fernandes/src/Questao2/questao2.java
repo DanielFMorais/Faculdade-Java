@@ -13,5 +13,7 @@ public class questao2 {
         valor1 = leia.nextDouble();
 
         System.out.println("O valor digitado foi de: " + valor1);
+
+        leia.close();
     }
 }

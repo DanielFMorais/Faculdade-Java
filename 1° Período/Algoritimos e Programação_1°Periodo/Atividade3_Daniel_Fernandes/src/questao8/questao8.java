@@ -18,6 +18,8 @@ public class questao8 {
         System.out.println("O junção dos dois dá: " + (algo + valor1));
         System.out.println("Você falou a string '" + algo + "' e digitou o número '" + valor1 + "'");
 
+        leia.close();
+
 
     }
 }

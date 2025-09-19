@@ -13,5 +13,7 @@ public class questao10 {
         int absolute = Math.abs(valor);
 
         System.out.println("O absoluto do seu valor = " + absolute);
+
+        leia.close();
     }
 }

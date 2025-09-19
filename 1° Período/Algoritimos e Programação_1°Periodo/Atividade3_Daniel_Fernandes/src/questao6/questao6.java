@@ -22,5 +22,7 @@ public class questao6 {
         multiplicacao = valor1 * valor2;
 
         System.out.println ("A multiplicaçao de " + valor1 + "x" + valor1 + " é igual á: " + multiplicacao);
+    
+        leia.close();
     }
 }
