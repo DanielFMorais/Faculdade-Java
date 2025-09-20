@@ -1,29 +1,48 @@
 public class Pessoa {
-    private String nome; 
-    private int telefone; 
+    // Atributos privados
+    private String nome;
+    private String telefone;
     private String email;
 
-    public Pessoa (String nome, int telefone, String email){
-        
+    // Construtor
+    public Pessoa(String nome, String telefone, String email) {
         this.nome = nome;
         this.telefone = telefone;
         this.email = email;
-
     }
 
-    public void alterarValores(String nome, int telefone, String email){
+    // Métodos getters
+    public String getNome() {
+        return nome;
+    }
+
+    public String getTelefone() {
+        return telefone;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    // Métodos setters
+    public void setNome(String nome) {
         this.nome = nome;
-        this.telefone = telefone;
-        this.email = email;
-
-        System.out.println("Seus novos dados são: ");
     }
 
-    public void mostrarValores(){
-        System.out.println("\nSeus dados são:");
-        System.out.println("Nome = " + nome);
-        System.out.println("Telefone = " + telefone);
-        System.out.println("Email = " + email);
+    public void setTelefone(String telefone) {
+        this.telefone = telefone;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    // Método para imprimir os dados
+    public void imprimirDados() {
+        System.out.println("Nome: " + nome);
+        System.out.println("Telefone: " + telefone);
+        System.out.println("E-mail: " + email);
+        System.out.println("-----------------------------");
     }
 
 }
