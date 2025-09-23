@@ -2,7 +2,6 @@
 // RA: 12126602
 // 05/04/2025
 
-import javax.sound.midi.SysexMessage;
 import java.util.Scanner;
 
 public class ativ11 {

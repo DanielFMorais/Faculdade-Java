@@ -28,7 +28,9 @@ public class ativ19 {
         } else {
             System.out.println("Você não selecionou um combustível disponível!");
             System.exit(0);
+            sc.close();
             return;
+    
 
         }
 

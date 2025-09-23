@@ -2,7 +2,6 @@
 //RA: 12126602
 //Data: 18 de Jan de 2025
 
-import javax.sound.sampled.Port;
 import java.util.Scanner;
 
 public class Question9 {

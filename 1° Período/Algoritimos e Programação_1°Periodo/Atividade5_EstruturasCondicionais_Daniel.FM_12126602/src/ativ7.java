@@ -2,8 +2,6 @@
 // RA: 12126602
 // 05/04/2025
 
-import java.util.EmptyStackException;
-import java.util.IllegalFormatCodePointException;
 import java.util.Scanner;
 
 public class ativ7 {

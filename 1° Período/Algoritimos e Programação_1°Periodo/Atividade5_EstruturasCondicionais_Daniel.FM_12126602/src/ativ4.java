@@ -2,8 +2,6 @@
 // RA: 12126602
 // 31/03/2025
 
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.Scanner;
 
 public class ativ4 {
