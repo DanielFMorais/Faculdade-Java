@@ -8,8 +8,7 @@ public class QuestionLP04 {
         double[] valor = new double[100];
 
         System.out.print("\nPor favor, me informe o 1° valor: " );
-        double v = sc.nextDouble();
-        valor[0] = v;
+        valor[0] = sc.nextDouble();
 
         for (int i = 1; i < valor.length; i++){
 
