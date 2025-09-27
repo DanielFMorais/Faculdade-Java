@@ -2,21 +2,12 @@ import java.util.Scanner;
 
 public class QuestionLP07 {
 
-    public static int mdc (int v1, int v2){
-        int maior, menor;
-        if (v1 > v2){
-            maior = v1;
-            menor = v2;
+    public static int mdc(int v1, int v2) {
+        if (v2 == 0) { // caso base
+            return v1; //Caso o v2 seja igual a zero ele retorna o v2
         } else {
-            maior = v2;
-            menor = v1;
-        }
-        
-        if (maior % menor ==0){
-            return maior / menor;
-        } else{
-            int resto = maior % menor;
-            return mdc(resto, menor);
+            return mdc(v2, v1 % v2); // chamada recursiva
+            //Aqui os lados sempre se trocam
         }
     }
 

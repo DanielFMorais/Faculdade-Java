@@ -1,16 +1,15 @@
 import java.util.Scanner;
 
 public class QuestionLP04 {
-    public static int maiorValor (int[] valor, int i, int maior){
+    public static int maiorValor (int[] valor, int i){
         
-        if (i >= valor.length){
-            return maior;
-        } else{
-            if (valor[i] > maior) {
-            maior = valor[i];
-            }
-            return maiorValor(valor, i+1, maior);
+        if (i == valor.length - 1){
+            return valor[i];
         }
+        if (valor[i] > maiorValor(valor, i + 1)) {
+            return valor[i];
+        }
+        return maiorValor(valor, i+1);
     }
 
     public static void main(String[] args) {
@@ -23,7 +22,7 @@ public class QuestionLP04 {
             valores[i] = sc.nextInt();
         }
 
-        int maiorV = maiorValor(valores, 0, 0);
+        int maiorV = maiorValor(valores, 0);
 
         System.out.printf("O maior valor e: %d", maiorV);
 

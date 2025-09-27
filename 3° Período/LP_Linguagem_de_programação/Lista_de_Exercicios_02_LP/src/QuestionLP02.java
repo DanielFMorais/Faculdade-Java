@@ -4,13 +4,12 @@ public class QuestionLP02 {
 
     public static double potencialização (double base, double expoente) {
         if (expoente == 0){
-            return 1.00;
-        } else if (expoente == 1){
-            return base;
-        } else {
-            return base * (potencialização(base, expoente - 1));
+            return 1.00; // Retorna 1 pois a multiplicação da base x 1 == a propria base
         }
-
+        return base * (potencialização(base, expoente - 1)); //Retorna a recursão até que o expoente retorne o caso base, e volte realizando a multiplicação
+        //A multiplicação com a recursão basicamente faz com que o exepoente fique diminuindo até que chegue no valor do caso bse, fazendo com que 
+        //o código posteriormente faca as multiplicações somente entre as bases, já que o ultimo valor sendo 1, qualquer numero multiplicado por ele é igual a ele mesmo
+        //fazendo que o resultado do retorno seja a base, que sera multiplicada por outra base.
     }
 
     public static void main(String[] args) {

@@ -2,15 +2,15 @@ import java.util.Scanner;
 
 public class QuestionLP08 {
 
-    public static int pares (int[] vetor, int i,int pares){
+    public static int pares (int[] vetor, int i){
         
-        if (i >= vetor.length){
-            return pares;
-        } else { 
-            if (vetor[i] % 2 == 0){
-                pares++;
-            }
-            return pares(vetor, i+1, pares);
+        if (i == vetor.length){
+            return 0;
+        } 
+        if (vetor[i] % 2 == 0){
+            return 1 + pares(vetor, i + 1); // Recursão fazendo somar a quantidade de pares
+        } else {
+            return 0 + pares(vetor, i+ 1); // Se for impar vai somar da mesma forma mas irá somar 0
         }
     }
 
@@ -25,7 +25,7 @@ public class QuestionLP08 {
         }
 
 
-        int quantidadePares = pares(valores, 0,0);
+        int quantidadePares = pares(valores, 0);
 
         
         System.out.printf("A quantidade de pares presentes no ARRAY é de: %d", quantidadePares);

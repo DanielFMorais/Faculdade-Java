@@ -2,15 +2,14 @@ import java.util.Scanner;
 
 public class QuestionLP06 {
 
-    public static String palavraInvertida(String palavra){
-
-        if (palavra.length() == 1){
-            return palavra;
-        } else {
-            char pLetra = palavra.charAt(0);
-            String restoPalavra = palavra.substring(1);
-            return palavraInvertida(restoPalavra) + pLetra;
+    public static boolean palindromo(String palavra, int i){
+        if (i == palavra.length()){
+            return true;
         }
+        if (palavra.toUpperCase().charAt(i) != (palavra.toUpperCase().charAt(palavra.length() - i -1 ))){
+            return false;
+        } 
+        return palindromo(palavra, i + 1);
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -18,14 +17,11 @@ public class QuestionLP06 {
         System.out.println("Por favor me informe uma palavra para verificar: ");
         String palavra = sc.nextLine();
 
-        String invertida = palavraInvertida(palavra);
+        boolean invertida = palindromo(palavra,0);
 
-        if (palavra.toUpperCase().equals(invertida.toUpperCase())){
-            System.out.println("É UM PALINDROMO");
-        }else {
-            System.out.println("NÃO É UM PALINDROMO");
-        }
-
+        
+        System.out.printf("A palavra %s é um Palindromo? %b", palavra, invertida);
+        
         sc.close();
     }
 
