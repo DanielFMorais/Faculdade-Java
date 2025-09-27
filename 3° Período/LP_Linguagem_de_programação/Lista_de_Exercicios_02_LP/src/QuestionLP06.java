@@ -10,6 +10,8 @@ public class QuestionLP06 {
             return false;
         } 
         return palindromo(palavra, i + 1);
+        // Esta recursão basicamente verificar se a primeira palavra é igual a ultima, em caso delas serem diferentes retorna um false, se não for difernete segue normalmente as verificações
+        //até chwegar no final e retornar um true
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
