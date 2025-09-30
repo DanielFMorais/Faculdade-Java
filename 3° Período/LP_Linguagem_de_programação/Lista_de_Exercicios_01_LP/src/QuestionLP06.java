@@ -24,6 +24,14 @@ public class QuestionLP06 {
         int h = valores[2][1];
         int i = valores[2][2];
 
+        System.out.println("\nMatriz informada:");
+        for (int linha = 0; linha < 3; linha++) {
+            for (int coluna = 0; coluna < 3; coluna++) {
+                System.out.print(valores[linha][coluna] + "\t");
+            }
+            System.out.println();
+        }
+
         int determinante = a*(e*i - f*h) - b*(d*i - f*g) + c*(d*h - e*g);
 
         System.out.println("A determinte da Matriz: " + determinante);
