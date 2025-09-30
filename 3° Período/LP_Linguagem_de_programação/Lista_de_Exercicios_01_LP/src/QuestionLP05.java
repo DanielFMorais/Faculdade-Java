@@ -14,20 +14,17 @@ public class QuestionLP05 {
         }else if (v == 1) {
             System.out.println("1° Fibonacci: 0");
         }else if (v == 2){
-            System.out.println("1° Fibonacci: 0");
             System.out.println("2° Fibonacci: 1");
         }else {
-            long a = 0;
-            long b = 1;
-            System.out.printf("1° Fibonacci: %d\n",a);
-            System.out.printf("2° Fibonacci: %d\n",b);
-            
+            int a = 0;
+            int b = 1;
+            int c = 0;
             for (int i = 3; i <= v; i++){
-                long c = a + b;
-                System.out.printf("%d° Fibonacci: %d\n",i,c);
+                c = a + b;
                 a = b;
                 b = c;
             }
+            System.out.printf("%d° Fibonacci: %d\n",v,c);
         }
         sc.close();
     }
