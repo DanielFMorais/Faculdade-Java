@@ -1,9 +1,8 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Main {
+public class MainFila {
 
-    // Função auxiliar para ler inteiro de forma segura
     public static int lerInteiro(Scanner sc, String mensagem) {
 
         while (true) {
@@ -30,22 +29,20 @@ public class Main {
 
     public static void main(String[] args) {
 
-        ArrayFila fila = new ArrayFila(5);
+        Fila fila = new Fila();
 
         Scanner sc = new Scanner(System.in);
 
         do {
             System.out.printf("""
             ----------
-            Olá, vamos começar com nossa FILA
+            FILA POR REFERÊNCIA
 
-            Por favor escolha uma das opções a seguir:
-
-                [1] -INSERIR- elemento na fila.
-                [2] -REMOVER- elemento da fila.
-                [3] -EXIBIR- quantidade de elementos.
-                [4] -EXIBIR- a fila.
-                [5] -PESQUISAR- valor na fila.
+            [1] INSERIR elemento
+            [2] REMOVER elemento
+            [3] EXIBIR quantidade
+            [4] EXIBIR fila
+            [5] PESQUISAR valor
 
             [DIGITE QUALQUER LETRA PARA SAIR]
             """);
@@ -53,13 +50,16 @@ public class Main {
             int op = -1;
 
             try {
+
                 op = sc.nextInt();
                 sc.nextLine();
 
             } catch (Exception e) {
+
                 System.out.println(
                     "Obrigado por usar nosso programa! ATE MAIS!"
                 );
+
                 sc.nextLine();
                 break;
             }
